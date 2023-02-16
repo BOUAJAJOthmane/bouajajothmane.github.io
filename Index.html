@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <!-- partie nav et header -->
+    <header>
+      <div class="user">
+        <img src="./img/shanks2.jpg" alt="Photo profil" />
+        <h3 class="name">BOUAJAJ Othmane</h3>
+        <p class="post">Front developer</p>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">CV</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- section page d'accueil -->
+    <section class="home" id="home">
+      <h3>Salut !</h3>
+      <h1>Je m'appelle <span>BOUAJAJ Othmane</span></h1>
+      <p>
+        Je me lance, tel Bilbon Sacquet, dans une nouvelle aventure en étudiant
+        chez O'Clock!
+      </p>
+      <p>Venez me découvrir et mieux connaitre !</p>
+      <a href="#about"
+        ><button class="btn">About me <i class="fas fa-user"></i></button>
+      </a>
+    </section>
+
+    <!-- section d'about -->
+    <section class="about" id="about">
+      <h1 class="heading"><span>About</span> me</h1>
+
+      <div class="row">
+        <div class="info">
+          <h3><span>Nom :</span> Bouajaj Othmane</h3>
+          <h3><span>Age :</span> 33 ans</h3>
+          <h3><span>Poste :</span> Front developer</h3>
+          <h3><span>Langue :</span> Français, Arabe</h3>
+          <a href="#">
+            <button class="btn">
+              <a href="./CV Dev.pdf" download="CV">Télécharger CV</a>
+              <i class="fas fa-download"></i>
+            </button>
+          </a>
+        </div>
+
+        <div class="counter">
+          <div class="box">
+            <span>3+</span>
+            <h3>Mois d'experience</h3>
+          </div>
+
+          <div class="box">
+            <span>6+</span>
+            <h3>Projets complétés</h3>
+          </div>
+
+          <div class="box">
+            <span>0</span>
+            <h3>Client</h3>
+          </div>
+
+          <div class="box">
+            <span>1</span>
+            <h3>Diplôme</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section CV -->
+    <section class="resume" id="resume">
+      <h1 class="heading">Mon <span>CV</span></h1>
+
+      <div class="box-container">
+        
+       
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2012 - 2015 </span>
+          <h3>Assistant responsable - INTERSPORT</h3>
+          <p>
+            Mon rôle était de m’occuper du briefing journalier de l’équipe .
+            J’était chargé de la mise en place des actions promotionnelles, du
+            planning de l’équipe ainsi que la gestion de la caisse lors de la
+            fermeture du magasin.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2015- 2018</span>
+          <h3>Coordinateur culturel - ACT'ESSONNE</h3>
+          <p>
+            Ma mission était de la gestion du COS de l’association. Je mettais
+            en place des partenariats avec différentes structures culturelles
+            (cinéma, théâtre, club de sport, ..) afin que les adhérent(e)s
+            puisses bénéficier de prix préférentiels.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2016 - à ce jour</span>
+          <h3>Coordinateur socio-culturel benevole - LUDO FANTASY</h3>
+          <p>
+            Je suis le fondateur de l'association LUDO FANTASY. Mon rôle comme
+            coordinateur est de mettre en place le projet pédagogique de
+            l'association, de coordonner et organiser les événements de
+            l'association. Et enfin, je suis bénévole et membre du conseil
+            d'administration.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2019 – à ce jour </span>
+          <h3>Conseiller en insertion professionnel - POLE EMPLOI</h3>
+          <p>
+            Mon rôle comme conseiller était d’accompagner les demandeurs
+            d’emploi afin de mettre en place leur projet professionnel (retour à
+            l’emploi, formation ou création d’entreprise).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- section Portfolio -->
+    <section class="portfolio" id="portfolio">
+      <h1 class="heading">Mon <span>portfolio</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./img/berserk.jpg" alt="" />
+        </div>
+
+        <div class="box">
+          <img src="./img/city hunter.jpg" alt="" />
+        </div>
+
+        <div class="box">
+          <img src="./img/dbz.jpg" alt="" />
+        </div>
+
+        <div class="box">
+          <img src="./img/HDL.jpg" alt="" />
+        </div>
+
+        <div class="box">
+          <img src="./img/HNK.jpg" alt="" />
+        </div>
+
+        <div class="box">
+          <img src="./img/vagabond.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- section contact -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>Contactez</span>-moi</h1>
+
+      <div class="row">
+        <div class="content">
+          <h3 class="title">Information de contact</h3>
+
+          <div class="info">
+            <h3><i class="fas fa-envelope"></i> bouajajo@gmail.com</h3>
+            <h3><i class="fas fa-phone"></i> 06.45.28.82.17</h3>
+            <h3>
+              <i class="fas fa-map-marker-alt"></i> Sainte-Geneviève-des-Bois,
+              91700, France.
+            </h3>
+          </div>
+        </div>
+
+        <form action="">
+          <input type="text" class="box" placeholder="Nom" />
+          <input type="email" class="box" placeholder="Mail" />
+          <input type="text" class="box" placeholder="Projet" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            class="box message"
+            placeholder="Message"
+          ></textarea>
+          <button type="submit" class="btn">
+            Envoyer <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- nuage home -->
+    <a href="#home" class="top">
+      <img src="./img/cloud.png" alt="nuage" />
+    </a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
