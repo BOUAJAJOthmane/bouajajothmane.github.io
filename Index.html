@@ -6,11 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/reset.css" />
+    
+    <!-- <link rel="stylesheet" href="./css/reset.css" /> -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -23,7 +20,7 @@
     <!-- partie nav et header -->
     <header>
       <div class="user">
-        <img src="./img/shanks2.jpg" alt="Photo profil" />
+        <img src="./img/shanks.jpg" alt="Photo profil" />
         <h3 class="name">BOUAJAJ Othmane</h3>
         <p class="post">Front developer</p>
       </div>
@@ -32,6 +29,7 @@
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#language">Techno</a></li>
           <li><a href="#resume">CV</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -44,7 +42,7 @@
     <!-- section page d'accueil -->
     <section class="home" id="home">
       <h3>Salut !</h3>
-      <h1>Je m'appelle <span>BOUAJAJ Othmane</span></h1>
+      <h1>Je suis <span>BOUAJAJ Othmane</span></h1>
       <p>
         Je me lance, tel Bilbon Sacquet, dans une nouvelle aventure en étudiant
         chez O'Clock!
@@ -97,17 +95,44 @@
       </div>
     </section>
 
+    <!-- section language -->
+
+    <section class="language" id="language">
+      <h1 class="heading">Mes <span>technos</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <h3 class="title"><span>HTML</span> </h3>
+          <img src="./img/html-5_318-566077.webp" alt="" />
+        </div>
+
+        <div class="box">
+          <h3 class="title"><span>CSS</span> </h3>
+
+          <img src="./img/CSS.png" alt="" />
+        </div>
+
+        <div class="box">
+          <h3 class="title"><span>JavaScript</span> </h3>
+          <img src="./img/1200px-Javascript-shield.svg.png" alt="" />
+        </div>
+
+        <div class="box">
+          <h3 class="title"><span>NodeJS</span> </h3>
+          <img src="./img/node-js-1174925.png" alt="" />
+        </div>
+      </div>
+    </section>
+
     <!-- section CV -->
     <section class="resume" id="resume">
       <h1 class="heading">Mon <span>CV</span></h1>
 
       <div class="box-container">
-        
-       
         <div class="box">
           <i class="fas fa-graduation-cap"></i>
           <span>2012 - 2015 </span>
-          <h3>Assistant responsable - INTERSPORT</h3>
+          <h3>Assistant responsable </h3>
+          <h4>Intersport</h4>
           <p>
             Mon rôle était de m’occuper du briefing journalier de l’équipe .
             J’était chargé de la mise en place des actions promotionnelles, du
@@ -119,7 +144,8 @@
         <div class="box">
           <i class="fas fa-graduation-cap"></i>
           <span>2015- 2018</span>
-          <h3>Coordinateur culturel - ACT'ESSONNE</h3>
+          <h3>Coordinateur culturel </h3>
+          <h4>act'essonne</h4>
           <p>
             Ma mission était de la gestion du COS de l’association. Je mettais
             en place des partenariats avec différentes structures culturelles
@@ -131,7 +157,8 @@
         <div class="box">
           <i class="fas fa-graduation-cap"></i>
           <span>2016 - à ce jour</span>
-          <h3>Coordinateur socio-culturel benevole - LUDO FANTASY</h3>
+          <h3>Coordinateur socio-culturel bénévole  </h3>
+          <h4>ludo fantasy</h4>
           <p>
             Je suis le fondateur de l'association LUDO FANTASY. Mon rôle comme
             coordinateur est de mettre en place le projet pédagogique de
@@ -144,7 +171,9 @@
         <div class="box">
           <i class="fas fa-graduation-cap"></i>
           <span>2019 – à ce jour </span>
-          <h3>Conseiller en insertion professionnel - POLE EMPLOI</h3>
+          <h3>Conseiller en insertion professionnel</h3>
+          <h4>pole emploi</h4>
+
           <p>
             Mon rôle comme conseiller était d’accompagner les demandeurs
             d’emploi afin de mettre en place leur projet professionnel (retour à
@@ -195,7 +224,7 @@
           <h3 class="title">Information de contact</h3>
 
           <div class="info">
-            <h3><i class="fas fa-envelope"></i> bouajajo@gmail.com</h3>
+            <h3><i class="fas fa-envelope"></i><a href="">bouajajo@gmail.com</a> </h3>
             <h3><i class="fas fa-phone"></i> 06.45.28.82.17</h3>
             <h3>
               <i class="fas fa-map-marker-alt"></i> Sainte-Geneviève-des-Bois,
@@ -225,7 +254,7 @@
 
     <!-- nuage home -->
     <a href="#home" class="top">
-      <img src="./img/cloud.png" alt="nuage" />
+      <img src="./img/shanks2.jpg" alt="nuage" />
     </a>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
